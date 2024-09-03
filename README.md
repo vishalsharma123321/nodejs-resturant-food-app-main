@@ -1,16 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Restaurant Food App</title>
-</head>
-<body>
-    <h1>Restaurant Food App <img src="https://via.placeholder.com/30x30?text=🍽️" alt="Food App Icon"></h1>
 
-    <p>A full-stack restaurant food application built with Node.js and Express. This application allows users to manage food categories, view and order food items, and handle user authentication.</p>
+<h1>Restaurant Food App <img src="https://via.placeholder.com/30x30?text=🍽️" alt="Food App Icon"></h1>
 
-    <h2>Features</h2>
+<p>A full-stack restaurant food application built with Node.js and Express. This application allows users to manage food categories, view and order food items, and handle user authentication.</p>
+
+<h2>Features</h2>
     <ul>
         <li>User authentication and authorization 🔒</li>
         <li>CRUD operations for food items and categories 🍲</li>
@@ -18,7 +11,7 @@
         <li>Admin middleware for protected routes 🛡️</li>
     </ul>
 
-    <h2>File Structure</h2>
+<h2>File Structure</h2>
     <pre>
 <code>
 nodejs-resturant-food-app-main
@@ -48,24 +41,24 @@ nodejs-resturant-food-app-main
 </code>
     </pre>
 
-    <h2>Installation</h2>
+<h2>Installation</h2>
     <ol>
         <li>Clone the repository:</li>
         <pre><code>git clone https://github.com/yourusername/restaurant-food-app.git</code></pre>
 
-        <li>Navigate to the project directory:</li>
-        <pre><code>cd restaurant-food-app</code></pre>
+<li>Navigate to the project directory:</li>
+     <pre><code>cd restaurant-food-app</code></pre>
 
-        <li>Install the dependencies:</li>
+<li>Install the dependencies:</li>
         <pre><code>npm install</code></pre>
 
-        <li>Configure the database connection in <code>config/db.js</code>.</li>
+<li>Configure the database connection in <code>config/db.js</code>.</li>
 
-        <li>Start the server:</li>
+<li>Start the server:</li>
         <pre><code>npm start</code></pre>
     </ol>
 
-    <h2>Usage</h2>
+<h2>Usage</h2>
     <p>Access the application at <a href="http://localhost:3000">http://localhost:3000</a>.</p>
     <p>API endpoints:</p>
     <ul>
@@ -77,13 +70,13 @@ nodejs-resturant-food-app-main
         <li><code>POST /api/food</code> - Add a new food item 🍲</li>
     </ul>
 
-    <h2>Contributing</h2>
+<h2>Contributing</h2>
     <p>Feel free to submit issues or pull requests if you have any suggestions or improvements. 🤝</p>
 
-    <h2>License</h2>
+<h2>License</h2>
     <p>This project is licensed under the MIT License - see the <a href="LICENSE">LICENSE</a> file for details.</p>
 
-    <h2>Contact</h2>
+<h2>Contact</h2>
     <p>For any questions, please reach out to me at <a href="mailto:vishalsharma2@shooliniuniversity.com">vishalsharma2@shooliniuniversity.com</a> 📧</p>
 </body>
 </html>
